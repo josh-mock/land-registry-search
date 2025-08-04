@@ -1,0 +1,37 @@
+.tabs {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 2.5rem;
+  gap: 1rem;
+}
+
+.tabs__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .tabs {
+    gap: 1.5rem;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .tabs {
+    font-size: 1.8rem;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .tabs {
+    font-size: 2rem;
+  }
+}

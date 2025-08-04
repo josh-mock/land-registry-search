@@ -1,0 +1,34 @@
+:root {
+  --footer-text: var(--slate-grey);
+  --footer-link-hover: var(--marian-blue);
+}
+
+.footer {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--footer-text);
+  margin-bottom: 2rem;
+}
+
+.footer__link {
+  text-decoration: underline;
+}
+
+.footer__link:hover {
+  color: var(--footer-link-hover);
+  transition: 0.3s;
+}
+
+/* md */
+@media (min-width: 768px) {
+  .footer {
+    font-size: 1.4rem;
+  }
+}
+
+/* lg */
+@media (min-width: 768px) {
+  .footer {
+    font-size: 1.6rem;
+  }
+}

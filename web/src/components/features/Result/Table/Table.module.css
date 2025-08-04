@@ -1,0 +1,64 @@
+.result__table {
+  width: 100%;
+}
+
+.col-title {
+  width: 25%;
+  text-align: left;
+}
+
+.col-address {
+  width: 50%;
+  text-align: left;
+}
+
+.col-price {
+  width: 25%;
+  text-align: right;
+}
+
+.col-proprietor {
+  width: 50%;
+}
+
+.col-jurisdiction {
+  width: 50%;
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .col-title {
+    width: 20%;
+  }
+
+  .col-address {
+    width: 60%;
+  }
+
+  .col-price {
+    width: 20%;
+  }
+
+  .col-proprietor {
+    width: 50%;
+  }
+
+  .col-jurisdiction {
+    width: 50%;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .col-title {
+    width: 15%;
+  }
+
+  .col-address {
+    width: 70%;
+  }
+
+  .col-price {
+    width: 15%;
+  }
+}

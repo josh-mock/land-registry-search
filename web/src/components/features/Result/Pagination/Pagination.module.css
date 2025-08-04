@@ -1,0 +1,10 @@
+.pagination {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.pagination__group {
+  display: flex;
+  gap: 0.5rem;
+}

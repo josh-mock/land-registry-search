@@ -1,0 +1,24 @@
+:root {
+  --top-ten-background: var(--white);
+}
+
+.topten {
+  background-color: var(--top-ten-background);
+  padding: 2.5rem;
+}
+
+.topten__error {
+  color: var(--error);
+}
+
+.topten__table {
+  margin: auto;
+}
+
+.topten__columnCompany {
+  text-align: left;
+}
+
+.topten__columnProperties {
+  text-align: right;
+}

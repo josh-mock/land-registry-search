@@ -1,0 +1,53 @@
+{
+    "land_reg": {
+        "base_url": "https://use-land-property-data.service.gov.uk/api/v1",
+        "accept": "application/json",
+        "datasets": [
+            {
+                "file_name": "CCOD",
+                "dataset_name": "ccod",
+                "columns": [
+                    "Title Number",
+                    "Property Address",
+                    "Price Paid",
+                    "Proprietor Name (1)",
+                    "Proprietor Name (2)",
+                    "Proprietor Name (3)",
+                    "Proprietor Name (4)"
+                ]
+            },
+            {
+                "file_name": "OCOD",
+                "dataset_name": "ocod",
+                "columns": [
+                    "Title Number",
+                    "Property Address",
+                    "Price Paid",
+                    "Proprietor Name (1)",
+                    "Proprietor Name (2)",
+                    "Proprietor Name (3)",
+                    "Proprietor Name (4)",
+                    "Country Incorporated (1)",
+                    "Country Incorporated (2)",
+                    "Country Incorporated (3)",
+                    "Country Incorporated (4)"
+                ]
+            }
+        ]
+    },
+    "tables": {
+        "chunk_size": 100000
+    },
+    "demo_proprietors": [
+        "NATIONAL HIGHWAYS LTD",
+        "EASTERN POWER NETWORKS PLC",
+        "WALLACE ESTATES LTD",
+        "CLARION HOUSING ASSOCIATION LTD",
+        "LONDON & QUADRANT HOUSING TRUST",
+        "TAPESTART LTD",
+        "SOUTH EASTERN POWER NETWORKS PLC",
+        "SOUTHERN ELECTRIC POWER DISTRIBUTION PLC",
+        "WESTERN POWER DISTRIBUTION EAST MIDLANDS PLC",
+        "NORTHERN POWERGRID YORKSHIRE PLC"
+    ]
+}

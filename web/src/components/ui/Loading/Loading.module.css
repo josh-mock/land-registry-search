@@ -1,0 +1,8 @@
+.loading {
+  text-align: center;
+  margin-bottom: 5rem;
+  background-color: var(--white);
+  font-weight: bold;
+  width: auto;
+  padding: 5rem;
+}
