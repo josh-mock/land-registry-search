@@ -1,7 +1,3 @@
-:root {
-  --top-ten-background: var(--white);
-}
-
 .topten {
   background-color: var(--top-ten-background);
   padding: 2.5rem;

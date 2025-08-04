@@ -1,10 +1,3 @@
-:root {
-  --form-background: var(--white);
-  --form-border: var(--cool-grey);
-  --autocomplete-border: var(--silver);
-  --autocomplete-background: var(--white);
-  --autocomplete-hover: var(--anti-flash-white);
-}
 
 .form {
   background-color: var(--form-background);

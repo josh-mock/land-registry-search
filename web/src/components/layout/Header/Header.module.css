@@ -1,9 +1,3 @@
-:root {
-  --header-background: var(--marian-blue);
-  --header-text: var(--white);
-  --header-link-hover: var(--timberwolf);
-}
-
 .header {
   padding-top: 5rem;
   padding-bottom: 2.5rem;

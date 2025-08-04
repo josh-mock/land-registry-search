@@ -1,8 +1,3 @@
-:root {
-  --footer-text: var(--slate-grey);
-  --footer-link-hover: var(--marian-blue);
-}
-
 .footer {
   text-align: center;
   font-size: 1.2rem;

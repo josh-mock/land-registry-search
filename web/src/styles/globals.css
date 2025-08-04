@@ -26,6 +26,24 @@
   --table-border: var(--silver);
 
   --input-border: var(--french-grey);
+
+  --form-background: var(--white);
+  --form-border: var(--cool-grey);
+  --autocomplete-border: var(--silver);
+  --autocomplete-background: var(--white);
+  --autocomplete-hover: var(--anti-flash-white);
+
+  --result-background: var(--white);
+  --result-border: var(--cool-grey);
+
+  --top-ten-background: var(--white);
+
+  --footer-text: var(--slate-grey);
+  --footer-link-hover: var(--marian-blue);
+
+  --header-background: var(--marian-blue);
+  --header-text: var(--white);
+  --header-link-hover: var(--timberwolf);
 }
 
 body {

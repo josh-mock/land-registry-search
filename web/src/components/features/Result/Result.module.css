@@ -1,8 +1,3 @@
-:root {
-  --result-background: var(--white);
-  --result-border: var(--cool-grey);
-}
-
 .result {
   background-color: var(--result-background);
   border: 1px solid var(--result-border);
