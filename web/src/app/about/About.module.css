@@ -1,8 +1,3 @@
-:root {
-  --about-background: var(--white);
-  --about-link-hover: var(--marian-blue);
-}
-
 .about {
   background-color: var(--about-background);
   padding-left: 10rem;

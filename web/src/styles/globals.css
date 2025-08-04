@@ -44,6 +44,9 @@
   --header-background: var(--marian-blue);
   --header-text: var(--white);
   --header-link-hover: var(--timberwolf);
+
+  --about-background: var(--white);
+  --about-link-hover: var(--marian-blue);
 }
 
 body {
