@@ -2,17 +2,29 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin-bottom: 2.5rem;
   gap: 1rem;
 }
 
 .tabs__buttons {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   gap: 1rem;
   margin-bottom: 1rem;
+  width: 200px;
+}
+
+@media (min-width: 475px) {
+  .tabs {
+    font-size: 1.6rem;
+  }
+
+  .tabs__buttons {
+    flex-direction: row;
+    width: auto;
+  }
 }
 
 /* sm */

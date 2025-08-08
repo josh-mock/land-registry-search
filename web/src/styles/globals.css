@@ -71,7 +71,7 @@ body {
   color: var(--btn-text);
   border-radius: 6px;
   border: 1px solid var(--btn-border);
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 .btn--inactive {
@@ -81,11 +81,11 @@ body {
 .input {
   border-radius: 6px;
   border: 1px solid var(--input-border);
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 .h2 {
-  font-size: 2.4rem;
+  font-size: 2rem;
   margin-bottom: 2.5rem;
 }
 
@@ -122,6 +122,21 @@ body {
 @media (min-width: 475px) {
   .container {
     max-width: 475px;
+  }
+
+  .h2 {
+    font-size: 2.4rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .btn {
+    font-size: 1.6rem;
+  }
+
+  .input {
+    border-radius: 6px;
+    border: 1px solid var(--input-border);
+    font-size: 1.6rem;
   }
 }
 

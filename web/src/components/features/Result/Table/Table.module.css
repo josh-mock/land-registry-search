@@ -3,17 +3,15 @@
 }
 
 .col-title {
-  width: 25%;
   text-align: left;
 }
 
 .col-address {
-  width: 50%;
   text-align: left;
+  width: 40%
 }
 
 .col-price {
-  width: 25%;
   text-align: right;
 }
 
@@ -25,6 +23,27 @@
   width: 50%;
 }
 
+@media (min-width: 475px) {
+  .col-title {
+    width: 25%;
+  }
+
+  .col-address {
+    width: 50%;
+  }
+
+  .col-price {
+    width: 25%;
+  }
+
+  .col-proprietor {
+    width: 50%;
+  }
+
+  .col-jurisdiction {
+    width: 50%;
+  }
+}
 /* sm */
 @media (min-width: 640px) {
   .col-title {
