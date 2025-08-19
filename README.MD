@@ -116,4 +116,4 @@ HM Land Registry data: Information produced by HM Land Registry © Crown copyrig
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+This project is licensed under the [MIT License](LICENSE).
