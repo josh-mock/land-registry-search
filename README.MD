@@ -110,6 +110,14 @@ npm start
 
 - The demo version of this project uses a sample dataset. The companies included in the app can be found in the "top 10 proprietors" tab.
 
+## Roadmap
+This project is a work-in-progress, and the following features and changes will be added:
+- Loading indicators
+- Additional error messages
+- Friendlier "no results" page
+- Implementing Tanstack Query and removing Zustand
+- More server-side rendering
+
 ## Acknowledgements
 
 HM Land Registry data: Information produced by HM Land Registry © Crown copyright 2025.
